@@ -1,16 +1,48 @@
-html,
+/* @import 'antd/dist/antd.css'; */
+@import "~antd/dist/antd.dark.css";
+/* html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
+} */
+/* 
 a {
   color: inherit;
   text-decoration: none;
-}
+} */
 
-* {
+/* * {
   box-sizing: border-box;
+} */
+.contentStyle {
+  height: "160px";
+  color: "#fff";
+  line-height: "160px";
+  text-align: "center";
+  background: "#364d79";
+}
+.ant-layout-content {
+  /* display: inherit; */
+  background-color: inherit;
+  padding: 0 50px;
+}
+.ant-layout-footer {
+  /* display: inherit; */
+  background-color: inherit;
+  padding: 0 50px;
+}
+/* .row {
+  display: inline-block;
+} */
+.gutter-box {
+  padding: 8px 0;
+  background: #00a0e9;
+}
+.center{
+  text-align: center;
+}
+.responsive-width {
+  font-size: 3vw;
 }

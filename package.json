@@ -1,5 +1,5 @@
 {
-  "name": "ecommerce",
+  "name": "youtubeconverter",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,8 +8,20 @@
     "start": "next start"
   },
   "dependencies": {
+    "antd": "^4.10.0",
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "firebase": "^8.2.1",
+    "fs": "0.0.1-security",
+    "net": "^1.0.2",
     "next": "10.0.4",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "swr": "^0.3.11",
+    "ytdl-core": "^4.4.1"
+  },
+  "browser": {
+    "child_process": false
   }
 }

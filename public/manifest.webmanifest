@@ -1,0 +1,17 @@
+{
+    "name": "youtube converter & downloader",
+    "short_name": "youtube-downloader",
+    "lang": "en-US",
+    "start_url": ".",
+    "display": "standalone",
+    "description":"A downloader app",
+    "orientation": "landscape",
+    "background-color": "#000",
+    "icons": [
+      {
+        "src": "icon512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
