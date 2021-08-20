@@ -1,5 +1,4 @@
-const fs = require('fs');
-const ytdl = require('ytdl-core');
+import ytdl from 'ytdl-core';
 import Cors from 'cors'
 import initMiddleware from '../../lib/initMiddleware';
 const cors = initMiddleware(
